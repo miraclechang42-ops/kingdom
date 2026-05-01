@@ -15,6 +15,8 @@ gdjs._23805_35895Code.GDNewSprite5Objects1= [];
 gdjs._23805_35895Code.GDNewSprite5Objects2= [];
 gdjs._23805_35895Code.GD_9526178_9538291Objects1= [];
 gdjs._23805_35895Code.GD_9526178_9538291Objects2= [];
+gdjs._23805_35895Code.GDNewSprite6Objects1= [];
+gdjs._23805_35895Code.GDNewSprite6Objects2= [];
 
 
 gdjs._23805_35895Code.mapOfGDgdjs_9546_959523805_959535895Code_9546GDNewSprite4Objects1Objects = Hashtable.newFrom({"NewSprite4": gdjs._23805_35895Code.GDNewSprite4Objects1});
@@ -30,6 +32,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._23805_35895Code.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs._23805_35895Code.GDNewSprite6Objects1);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "item");
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
@@ -41,6 +44,10 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._23805_35895Code.GDNe
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(30);
+}
+{for(var i = 0, len = gdjs._23805_35895Code.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs._23805_35895Code.GDNewSprite6Objects1[i].hide();
+}
 }
 }
 
@@ -159,6 +166,60 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() < 60);
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs._23805_35895Code.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs._23805_35895Code.GDNewSprite6Objects1);
+{for(var i = 0, len = gdjs._23805_35895Code.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs._23805_35895Code.GDNewSprite6Objects1[i].hide(false);
+}
+}
+{for(var i = 0, len = gdjs._23805_35895Code.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs._23805_35895Code.GDNewSprite4Objects1[i].deleteFromScene(runtimeScene);
+}
+}
+{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "item");
+}
+{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "time");
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs._23805_35895Code.GDNewSprite6Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs._23805_35895Code.GDNewSprite6Objects1.length;i<l;++i) {
+    if ( gdjs._23805_35895Code.GDNewSprite6Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._23805_35895Code.GDNewSprite6Objects1[k] = gdjs._23805_35895Code.GDNewSprite6Objects1[i];
+        ++k;
+    }
+}
+gdjs._23805_35895Code.GDNewSprite6Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "峽谷");
+}
+}
+
+}
+
+
 };
 
 gdjs._23805_35895Code.func = function(runtimeScene) {
@@ -178,6 +239,8 @@ gdjs._23805_35895Code.GDNewSprite5Objects1.length = 0;
 gdjs._23805_35895Code.GDNewSprite5Objects2.length = 0;
 gdjs._23805_35895Code.GD_9526178_9538291Objects1.length = 0;
 gdjs._23805_35895Code.GD_9526178_9538291Objects2.length = 0;
+gdjs._23805_35895Code.GDNewSprite6Objects1.length = 0;
+gdjs._23805_35895Code.GDNewSprite6Objects2.length = 0;
 
 gdjs._23805_35895Code.eventsList0(runtimeScene);
 gdjs._23805_35895Code.GDNewSpriteObjects1.length = 0;
@@ -194,6 +257,8 @@ gdjs._23805_35895Code.GDNewSprite5Objects1.length = 0;
 gdjs._23805_35895Code.GDNewSprite5Objects2.length = 0;
 gdjs._23805_35895Code.GD_9526178_9538291Objects1.length = 0;
 gdjs._23805_35895Code.GD_9526178_9538291Objects2.length = 0;
+gdjs._23805_35895Code.GDNewSprite6Objects1.length = 0;
+gdjs._23805_35895Code.GDNewSprite6Objects2.length = 0;
 
 
 return;
