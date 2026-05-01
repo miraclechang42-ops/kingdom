@@ -55,6 +55,16 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
 };
 
 gdjs._20027_30059_38754Code.func = function(runtimeScene) {
