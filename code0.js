@@ -7,6 +7,10 @@ gdjs._20027_30059_38754Code.GDNewSpriteObjects1= [];
 gdjs._20027_30059_38754Code.GDNewSpriteObjects2= [];
 gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects1= [];
 gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects2= [];
+gdjs._20027_30059_38754Code.GDNewTextObjects1= [];
+gdjs._20027_30059_38754Code.GDNewTextObjects2= [];
+gdjs._20027_30059_38754Code.GDNewSprite2Objects1= [];
+gdjs._20027_30059_38754Code.GDNewSprite2Objects2= [];
 
 
 gdjs._20027_30059_38754Code.eventsList0 = function(runtimeScene) {
@@ -100,6 +104,10 @@ gdjs._20027_30059_38754Code.GDNewSpriteObjects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSpriteObjects2.length = 0;
 gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects1.length = 0;
 gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects2.length = 0;
+gdjs._20027_30059_38754Code.GDNewTextObjects1.length = 0;
+gdjs._20027_30059_38754Code.GDNewTextObjects2.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite2Objects1.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite2Objects2.length = 0;
 
 gdjs._20027_30059_38754Code.eventsList0(runtimeScene);
 gdjs._20027_30059_38754Code.GD_9538283_9522987_9536938_9525138Objects1.length = 0;
@@ -108,6 +116,10 @@ gdjs._20027_30059_38754Code.GDNewSpriteObjects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSpriteObjects2.length = 0;
 gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects1.length = 0;
 gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects2.length = 0;
+gdjs._20027_30059_38754Code.GDNewTextObjects1.length = 0;
+gdjs._20027_30059_38754Code.GDNewTextObjects2.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite2Objects1.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite2Objects2.length = 0;
 
 
 return;

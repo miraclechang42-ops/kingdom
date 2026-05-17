@@ -23,6 +23,8 @@ gdjs._29579_23470Code.GDGreenButtonObjects1= [];
 gdjs._29579_23470Code.GDGreenButtonObjects2= [];
 gdjs._29579_23470Code.GDNewSprite6Objects1= [];
 gdjs._29579_23470Code.GDNewSprite6Objects2= [];
+gdjs._29579_23470Code.GDNewSprite7Objects1= [];
+gdjs._29579_23470Code.GDNewSprite7Objects2= [];
 
 
 gdjs._29579_23470Code.eventsList0 = function(runtimeScene) {
@@ -328,6 +330,28 @@ let isConditionTrue_0 = false;
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs._29579_23470Code.GDNewSprite7Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs._29579_23470Code.GDNewSprite7Objects1.length;i<l;++i) {
+    if ( gdjs._29579_23470Code.GDNewSprite7Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._29579_23470Code.GDNewSprite7Objects1[k] = gdjs._29579_23470Code.GDNewSprite7Objects1[i];
+        ++k;
+    }
+}
+gdjs._29579_23470Code.GDNewSprite7Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "主畫面");
+}
+}
+
+}
+
+
 };
 
 gdjs._29579_23470Code.func = function(runtimeScene) {
@@ -355,6 +379,8 @@ gdjs._29579_23470Code.GDGreenButtonObjects1.length = 0;
 gdjs._29579_23470Code.GDGreenButtonObjects2.length = 0;
 gdjs._29579_23470Code.GDNewSprite6Objects1.length = 0;
 gdjs._29579_23470Code.GDNewSprite6Objects2.length = 0;
+gdjs._29579_23470Code.GDNewSprite7Objects1.length = 0;
+gdjs._29579_23470Code.GDNewSprite7Objects2.length = 0;
 
 gdjs._29579_23470Code.eventsList0(runtimeScene);
 gdjs._29579_23470Code.GDNewSpriteObjects1.length = 0;
@@ -379,6 +405,8 @@ gdjs._29579_23470Code.GDGreenButtonObjects1.length = 0;
 gdjs._29579_23470Code.GDGreenButtonObjects2.length = 0;
 gdjs._29579_23470Code.GDNewSprite6Objects1.length = 0;
 gdjs._29579_23470Code.GDNewSprite6Objects2.length = 0;
+gdjs._29579_23470Code.GDNewSprite7Objects1.length = 0;
+gdjs._29579_23470Code.GDNewSprite7Objects2.length = 0;
 
 
 return;
