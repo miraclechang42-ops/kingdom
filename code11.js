@@ -5,6 +5,8 @@ gdjs._35657_26360Code.GDNewTextInputObjects1= [];
 gdjs._35657_26360Code.GDNewTextInputObjects2= [];
 gdjs._35657_26360Code.GDNewSpriteObjects1= [];
 gdjs._35657_26360Code.GDNewSpriteObjects2= [];
+gdjs._35657_26360Code.GDNewSprite2Objects1= [];
+gdjs._35657_26360Code.GDNewSprite2Objects2= [];
 
 
 gdjs._35657_26360Code.eventsList0 = function(runtimeScene) {
@@ -66,12 +68,16 @@ gdjs._35657_26360Code.GDNewTextInputObjects1.length = 0;
 gdjs._35657_26360Code.GDNewTextInputObjects2.length = 0;
 gdjs._35657_26360Code.GDNewSpriteObjects1.length = 0;
 gdjs._35657_26360Code.GDNewSpriteObjects2.length = 0;
+gdjs._35657_26360Code.GDNewSprite2Objects1.length = 0;
+gdjs._35657_26360Code.GDNewSprite2Objects2.length = 0;
 
 gdjs._35657_26360Code.eventsList0(runtimeScene);
 gdjs._35657_26360Code.GDNewTextInputObjects1.length = 0;
 gdjs._35657_26360Code.GDNewTextInputObjects2.length = 0;
 gdjs._35657_26360Code.GDNewSpriteObjects1.length = 0;
 gdjs._35657_26360Code.GDNewSpriteObjects2.length = 0;
+gdjs._35657_26360Code.GDNewSprite2Objects1.length = 0;
+gdjs._35657_26360Code.GDNewSprite2Objects2.length = 0;
 
 
 return;

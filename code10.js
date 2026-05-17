@@ -23,6 +23,8 @@ gdjs._35206_21629Code.GD_95953Objects1= [];
 gdjs._35206_21629Code.GD_95953Objects2= [];
 gdjs._35206_21629Code.GDNewSprite8Objects1= [];
 gdjs._35206_21629Code.GDNewSprite8Objects2= [];
+gdjs._35206_21629Code.GDNewSprite9Objects1= [];
+gdjs._35206_21629Code.GDNewSprite9Objects2= [];
 
 
 gdjs._35206_21629Code.eventsList0 = function(runtimeScene) {
@@ -350,6 +352,28 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._35206_21629Code.GDNe
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("NewSprite9"), gdjs._35206_21629Code.GDNewSprite9Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs._35206_21629Code.GDNewSprite9Objects1.length;i<l;++i) {
+    if ( gdjs._35206_21629Code.GDNewSprite9Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._35206_21629Code.GDNewSprite9Objects1[k] = gdjs._35206_21629Code.GDNewSprite9Objects1[i];
+        ++k;
+    }
+}
+gdjs._35206_21629Code.GDNewSprite9Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "主畫面");
+}
+}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._35206_21629Code.GDNewSprite3Objects1);
 
 let isConditionTrue_0 = false;
@@ -397,6 +421,8 @@ gdjs._35206_21629Code.GD_95953Objects1.length = 0;
 gdjs._35206_21629Code.GD_95953Objects2.length = 0;
 gdjs._35206_21629Code.GDNewSprite8Objects1.length = 0;
 gdjs._35206_21629Code.GDNewSprite8Objects2.length = 0;
+gdjs._35206_21629Code.GDNewSprite9Objects1.length = 0;
+gdjs._35206_21629Code.GDNewSprite9Objects2.length = 0;
 
 gdjs._35206_21629Code.eventsList0(runtimeScene);
 gdjs._35206_21629Code.GDNewSpriteObjects1.length = 0;
@@ -421,6 +447,8 @@ gdjs._35206_21629Code.GD_95953Objects1.length = 0;
 gdjs._35206_21629Code.GD_95953Objects2.length = 0;
 gdjs._35206_21629Code.GDNewSprite8Objects1.length = 0;
 gdjs._35206_21629Code.GDNewSprite8Objects2.length = 0;
+gdjs._35206_21629Code.GDNewSprite9Objects1.length = 0;
+gdjs._35206_21629Code.GDNewSprite9Objects2.length = 0;
 
 
 return;
