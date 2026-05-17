@@ -199,6 +199,10 @@ gdjs._27836_28580Code.GDNewSprite6Objects1.length = 0;
 }
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs._27836_28580Code.mapOfGDgdjs_9546_959527836_959528580Code_9546GDNewSprite6Objects1Objects, (( gdjs._27836_28580Code.GDNewSprite2Objects1.length === 0 ) ? 0 :gdjs._27836_28580Code.GDNewSprite2Objects1[0].getPointX("")), (( gdjs._27836_28580Code.GDNewSprite2Objects1.length === 0 ) ? 0 :gdjs._27836_28580Code.GDNewSprite2Objects1[0].getPointY("")), "");
 }
+{for(var i = 0, len = gdjs._27836_28580Code.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs._27836_28580Code.GDNewSprite6Objects1[i].getBehavior("Scale").setScale(0.2);
+}
+}
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "mole");
 }
 {for(var i = 0, len = gdjs._27836_28580Code.GDNewSprite2Objects1.length ;i < len;++i) {
@@ -249,6 +253,8 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs._27836_28580Code.GDNe
 {for(var i = 0, len = gdjs._27836_28580Code.GDNewSprite2Objects1.length ;i < len;++i) {
     gdjs._27836_28580Code.GDNewSprite2Objects1[i].returnVariable(gdjs._27836_28580Code.GDNewSprite2Objects1[i].getVariables().get("T")).setNumber(0);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "東西掉落.mp3", false, 100, 1);
 }
 }
 
@@ -314,10 +320,10 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs._27836_28580Code.GDNe
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs._27836_28580Code.mapOfGDgdjs_9546_959527836_959528580Code_9546GDNewSprite3Objects1ObjectsGDgdjs_9546_959527836_959528580Code_9546GDNewSprite4Objects1Objects, (( gdjs._27836_28580Code.GDNewSprite2Objects1.length === 0 ) ? 0 :gdjs._27836_28580Code.GDNewSprite2Objects1[0].getPointX("")), (( gdjs._27836_28580Code.GDNewSprite2Objects1.length === 0 ) ? 0 :gdjs._27836_28580Code.GDNewSprite2Objects1[0].getPointY("")), "");
 }
 {for(var i = 0, len = gdjs._27836_28580Code.GDNewSprite3Objects1.length ;i < len;++i) {
-    gdjs._27836_28580Code.GDNewSprite3Objects1[i].getBehavior("Scale").setScale(0.1);
+    gdjs._27836_28580Code.GDNewSprite3Objects1[i].getBehavior("Scale").setScale(0.2);
 }
 for(var i = 0, len = gdjs._27836_28580Code.GDNewSprite4Objects1.length ;i < len;++i) {
-    gdjs._27836_28580Code.GDNewSprite4Objects1[i].getBehavior("Scale").setScale(0.1);
+    gdjs._27836_28580Code.GDNewSprite4Objects1[i].getBehavior("Scale").setScale(0.2);
 }
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "S");
@@ -364,6 +370,8 @@ for(var i = 0, len = gdjs._27836_28580Code.GDNewSprite4Objects1.length ;i < len;
 {for(var i = 0, len = gdjs._27836_28580Code.GDNewSprite2Objects1.length ;i < len;++i) {
     gdjs._27836_28580Code.GDNewSprite2Objects1[i].returnVariable(gdjs._27836_28580Code.GDNewSprite2Objects1[i].getVariables().get("T")).setNumber(0);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "東西掉落.mp3", false, 100, 1);
 }
 
 { //Subevents
@@ -500,6 +508,40 @@ for (var i = 0, k = 0, l = gdjs._27836_28580Code.GDGreenButtonObjects1.length;i<
 gdjs._27836_28580Code.GDGreenButtonObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "沼澤");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("GreenButton2"), gdjs._27836_28580Code.GDGreenButton2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs._27836_28580Code.GDGreenButton2Objects1.length;i<l;++i) {
+    if ( gdjs._27836_28580Code.GDGreenButton2Objects1[i].IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._27836_28580Code.GDGreenButton2Objects1[k] = gdjs._27836_28580Code.GDGreenButton2Objects1[i];
+        ++k;
+    }
+}
+gdjs._27836_28580Code.GDGreenButton2Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "精靈");
 }
 }
 

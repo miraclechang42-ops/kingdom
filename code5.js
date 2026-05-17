@@ -27,6 +27,8 @@ gdjs._22739_22739Code.GDGreenButton3Objects1= [];
 gdjs._22739_22739Code.GDGreenButton3Objects2= [];
 gdjs._22739_22739Code.GDNewSprite4Objects1= [];
 gdjs._22739_22739Code.GDNewSprite4Objects2= [];
+gdjs._22739_22739Code.GDNewSprite5Objects1= [];
+gdjs._22739_22739Code.GDNewSprite5Objects2= [];
 
 
 gdjs._22739_22739Code.eventsList0 = function(runtimeScene) {
@@ -118,7 +120,7 @@ gdjs.copyArray(runtimeScene.getObjects("_6"), gdjs._22739_22739Code.GD_95956Obje
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "start") >= 1;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "start") >= 0.5;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs._22739_22739Code.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs._22739_22739Code.GDNewSprite2Objects1);
@@ -146,6 +148,7 @@ gdjs.copyArray(runtimeScene.getObjects("_1"), gdjs._22739_22739Code.GD_95951Obje
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._22739_22739Code.GDNewSprite5Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_1"), gdjs._22739_22739Code.GD_95951Objects1);
 
 let isConditionTrue_0 = false;
@@ -160,10 +163,17 @@ for (var i = 0, k = 0, l = gdjs._22739_22739Code.GD_95951Objects1.length;i<l;++i
 gdjs._22739_22739Code.GD_95951Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "a");
+for (var i = 0, k = 0, l = gdjs._22739_22739Code.GDNewSprite5Objects1.length;i<l;++i) {
+    if ( gdjs._22739_22739Code.GDNewSprite5Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._22739_22739Code.GDNewSprite5Objects1[k] = gdjs._22739_22739Code.GDNewSprite5Objects1[i];
+        ++k;
+    }
+}
+gdjs._22739_22739Code.GDNewSprite5Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "say") >= 1;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "say") >= 0.5;
 }
 }
 if (isConditionTrue_0) {
@@ -186,6 +196,7 @@ gdjs.copyArray(runtimeScene.getObjects("_2"), gdjs._22739_22739Code.GD_95952Obje
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._22739_22739Code.GDNewSprite5Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_2"), gdjs._22739_22739Code.GD_95952Objects1);
 
 let isConditionTrue_0 = false;
@@ -200,10 +211,17 @@ for (var i = 0, k = 0, l = gdjs._22739_22739Code.GD_95952Objects1.length;i<l;++i
 gdjs._22739_22739Code.GD_95952Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "a");
+for (var i = 0, k = 0, l = gdjs._22739_22739Code.GDNewSprite5Objects1.length;i<l;++i) {
+    if ( gdjs._22739_22739Code.GDNewSprite5Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._22739_22739Code.GDNewSprite5Objects1[k] = gdjs._22739_22739Code.GDNewSprite5Objects1[i];
+        ++k;
+    }
+}
+gdjs._22739_22739Code.GDNewSprite5Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "say") >= 1;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "say") >= 0.5;
 }
 }
 if (isConditionTrue_0) {
@@ -261,6 +279,8 @@ gdjs.copyArray(runtimeScene.getObjects("GreenButton"), gdjs._22739_22739Code.GDG
 /* Reuse gdjs._22739_22739Code.GDGreenButton2Objects1 */
 gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._22739_22739Code.GD_95953Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_4"), gdjs._22739_22739Code.GD_95954Objects1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "選錯了.mp3", false, 100, 1);
+}
 {for(var i = 0, len = gdjs._22739_22739Code.GDGreenButton2Objects1.length ;i < len;++i) {
     gdjs._22739_22739Code.GDGreenButton2Objects1[i].hide();
 }
@@ -286,6 +306,7 @@ gdjs.copyArray(runtimeScene.getObjects("_4"), gdjs._22739_22739Code.GD_95954Obje
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._22739_22739Code.GDNewSprite5Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_4"), gdjs._22739_22739Code.GD_95954Objects1);
 
 let isConditionTrue_0 = false;
@@ -300,7 +321,14 @@ for (var i = 0, k = 0, l = gdjs._22739_22739Code.GD_95954Objects1.length;i<l;++i
 gdjs._22739_22739Code.GD_95954Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "a");
+for (var i = 0, k = 0, l = gdjs._22739_22739Code.GDNewSprite5Objects1.length;i<l;++i) {
+    if ( gdjs._22739_22739Code.GDNewSprite5Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._22739_22739Code.GDNewSprite5Objects1[k] = gdjs._22739_22739Code.GDNewSprite5Objects1[i];
+        ++k;
+    }
+}
+gdjs._22739_22739Code.GDNewSprite5Objects1.length = k;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("GreenButton"), gdjs._22739_22739Code.GDGreenButtonObjects1);
@@ -348,6 +376,8 @@ gdjs.copyArray(runtimeScene.getObjects("GreenButton2"), gdjs._22739_22739Code.GD
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._22739_22739Code.GDNewSprite3Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._22739_22739Code.GD_95953Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_5"), gdjs._22739_22739Code.GD_95955Objects1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "選對了.mp3", false, 100, 1);
+}
 {for(var i = 0, len = gdjs._22739_22739Code.GDGreenButton2Objects1.length ;i < len;++i) {
     gdjs._22739_22739Code.GDGreenButton2Objects1[i].hide();
 }
@@ -378,6 +408,7 @@ gdjs.copyArray(runtimeScene.getObjects("_5"), gdjs._22739_22739Code.GD_95955Obje
 {
 
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._22739_22739Code.GDNewSprite3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._22739_22739Code.GDNewSprite5Objects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -391,10 +422,17 @@ for (var i = 0, k = 0, l = gdjs._22739_22739Code.GDNewSprite3Objects1.length;i<l
 gdjs._22739_22739Code.GDNewSprite3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "say") >= 1;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "say") >= 0.5;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "a");
+for (var i = 0, k = 0, l = gdjs._22739_22739Code.GDNewSprite5Objects1.length;i<l;++i) {
+    if ( gdjs._22739_22739Code.GDNewSprite5Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._22739_22739Code.GDNewSprite5Objects1[k] = gdjs._22739_22739Code.GDNewSprite5Objects1[i];
+        ++k;
+    }
+}
+gdjs._22739_22739Code.GDNewSprite5Objects1.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -445,6 +483,18 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
+}
+}
+
+}
+
+
 };
 
 gdjs._22739_22739Code.func = function(runtimeScene) {
@@ -476,6 +526,8 @@ gdjs._22739_22739Code.GDGreenButton3Objects1.length = 0;
 gdjs._22739_22739Code.GDGreenButton3Objects2.length = 0;
 gdjs._22739_22739Code.GDNewSprite4Objects1.length = 0;
 gdjs._22739_22739Code.GDNewSprite4Objects2.length = 0;
+gdjs._22739_22739Code.GDNewSprite5Objects1.length = 0;
+gdjs._22739_22739Code.GDNewSprite5Objects2.length = 0;
 
 gdjs._22739_22739Code.eventsList0(runtimeScene);
 gdjs._22739_22739Code.GDNewSpriteObjects1.length = 0;
@@ -504,6 +556,8 @@ gdjs._22739_22739Code.GDGreenButton3Objects1.length = 0;
 gdjs._22739_22739Code.GDGreenButton3Objects2.length = 0;
 gdjs._22739_22739Code.GDNewSprite4Objects1.length = 0;
 gdjs._22739_22739Code.GDNewSprite4Objects2.length = 0;
+gdjs._22739_22739Code.GDNewSprite5Objects1.length = 0;
+gdjs._22739_22739Code.GDNewSprite5Objects2.length = 0;
 
 
 return;

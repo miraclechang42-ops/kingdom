@@ -259,6 +259,8 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs._28779_23665Code.GDNe
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(1);
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "東西掉落.mp3", false, 80, 1);
+}
 }
 
 }
@@ -431,6 +433,18 @@ for (var i = 0, k = 0, l = gdjs._28779_23665Code.GDGreenButton3Objects1.length;i
 gdjs._28779_23665Code.GDGreenButton3Objects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "火山");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
 }
 
