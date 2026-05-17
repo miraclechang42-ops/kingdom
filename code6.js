@@ -40,6 +40,18 @@ gdjs._28779_23665Code.GDGreenButton2Objects3= [];
 gdjs._28779_23665Code.GDGreenButton3Objects1= [];
 gdjs._28779_23665Code.GDGreenButton3Objects2= [];
 gdjs._28779_23665Code.GDGreenButton3Objects3= [];
+gdjs._28779_23665Code.GDNewSprite7Objects1= [];
+gdjs._28779_23665Code.GDNewSprite7Objects2= [];
+gdjs._28779_23665Code.GDNewSprite7Objects3= [];
+gdjs._28779_23665Code.GDNewSprite8Objects1= [];
+gdjs._28779_23665Code.GDNewSprite8Objects2= [];
+gdjs._28779_23665Code.GDNewSprite8Objects3= [];
+gdjs._28779_23665Code.GDNewSprite9Objects1= [];
+gdjs._28779_23665Code.GDNewSprite9Objects2= [];
+gdjs._28779_23665Code.GDNewSprite9Objects3= [];
+gdjs._28779_23665Code.GDNewSprite10Objects1= [];
+gdjs._28779_23665Code.GDNewSprite10Objects2= [];
+gdjs._28779_23665Code.GDNewSprite10Objects3= [];
 
 
 gdjs._28779_23665Code.mapOfGDgdjs_9546_959528779_959523665Code_9546GDNewSprite2Objects1Objects = Hashtable.newFrom({"NewSprite2": gdjs._28779_23665Code.GDNewSprite2Objects1});
@@ -182,6 +194,7 @@ for (var i = 0, k = 0, l = gdjs._28779_23665Code.GDGreenButtonObjects1.length;i<
 gdjs._28779_23665Code.GDGreenButtonObjects1.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs._28779_23665Code.GDGreenButtonObjects1 */
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs._28779_23665Code.GDNewSprite8Objects1);
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(0);
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "time");
@@ -194,6 +207,10 @@ if (isConditionTrue_0) {
 }
 {for(var i = 0, len = gdjs._28779_23665Code.GDGreenButtonObjects1.length ;i < len;++i) {
     gdjs._28779_23665Code.GDGreenButtonObjects1[i].Activate(false, null);
+}
+}
+{for(var i = 0, len = gdjs._28779_23665Code.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs._28779_23665Code.GDNewSprite8Objects1[i].hide();
 }
 }
 }
@@ -441,6 +458,28 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs._28779_23665Code.GDNewSprite7Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs._28779_23665Code.GDNewSprite7Objects1.length;i<l;++i) {
+    if ( gdjs._28779_23665Code.GDNewSprite7Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._28779_23665Code.GDNewSprite7Objects1[k] = gdjs._28779_23665Code.GDNewSprite7Objects1[i];
+        ++k;
+    }
+}
+gdjs._28779_23665Code.GDNewSprite7Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "主畫面");
+}
+}
+
+}
+
+
+{
+
 
 let isConditionTrue_0 = false;
 {
@@ -495,6 +534,18 @@ gdjs._28779_23665Code.GDGreenButton2Objects3.length = 0;
 gdjs._28779_23665Code.GDGreenButton3Objects1.length = 0;
 gdjs._28779_23665Code.GDGreenButton3Objects2.length = 0;
 gdjs._28779_23665Code.GDGreenButton3Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite7Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite7Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite7Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite8Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite8Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite8Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite9Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite9Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite9Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite10Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite10Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite10Objects3.length = 0;
 
 gdjs._28779_23665Code.eventsList2(runtimeScene);
 gdjs._28779_23665Code.GDNewSpriteObjects1.length = 0;
@@ -536,6 +587,18 @@ gdjs._28779_23665Code.GDGreenButton2Objects3.length = 0;
 gdjs._28779_23665Code.GDGreenButton3Objects1.length = 0;
 gdjs._28779_23665Code.GDGreenButton3Objects2.length = 0;
 gdjs._28779_23665Code.GDGreenButton3Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite7Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite7Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite7Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite8Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite8Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite8Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite9Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite9Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite9Objects3.length = 0;
+gdjs._28779_23665Code.GDNewSprite10Objects1.length = 0;
+gdjs._28779_23665Code.GDNewSprite10Objects2.length = 0;
+gdjs._28779_23665Code.GDNewSprite10Objects3.length = 0;
 
 
 return;
