@@ -11,6 +11,8 @@ gdjs._26126_20142Code.GD_9535657_9526360Objects1= [];
 gdjs._26126_20142Code.GD_9535657_9526360Objects2= [];
 gdjs._26126_20142Code.GDNewSprite2Objects1= [];
 gdjs._26126_20142Code.GDNewSprite2Objects2= [];
+gdjs._26126_20142Code.GDNewSprite3Objects1= [];
+gdjs._26126_20142Code.GDNewSprite3Objects2= [];
 
 
 gdjs._26126_20142Code.eventsList0 = function(runtimeScene) {
@@ -108,6 +110,8 @@ gdjs._26126_20142Code.GD_9535657_9526360Objects1.length = 0;
 gdjs._26126_20142Code.GD_9535657_9526360Objects2.length = 0;
 gdjs._26126_20142Code.GDNewSprite2Objects1.length = 0;
 gdjs._26126_20142Code.GDNewSprite2Objects2.length = 0;
+gdjs._26126_20142Code.GDNewSprite3Objects1.length = 0;
+gdjs._26126_20142Code.GDNewSprite3Objects2.length = 0;
 
 gdjs._26126_20142Code.eventsList0(runtimeScene);
 gdjs._26126_20142Code.GDNewSpriteObjects1.length = 0;
@@ -120,6 +124,8 @@ gdjs._26126_20142Code.GD_9535657_9526360Objects1.length = 0;
 gdjs._26126_20142Code.GD_9535657_9526360Objects2.length = 0;
 gdjs._26126_20142Code.GDNewSprite2Objects1.length = 0;
 gdjs._26126_20142Code.GDNewSprite2Objects2.length = 0;
+gdjs._26126_20142Code.GDNewSprite3Objects1.length = 0;
+gdjs._26126_20142Code.GDNewSprite3Objects2.length = 0;
 
 
 return;
