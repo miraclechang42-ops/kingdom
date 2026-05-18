@@ -43,6 +43,9 @@ gdjs._35373_35336_36039_35338Code.GD_9529256_95274022Objects3= [];
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects1= [];
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects2= [];
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects3= [];
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects1= [];
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects2= [];
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects3= [];
 
 
 gdjs._35373_35336_36039_35338Code.eventsList0 = function(runtimeScene) {
@@ -196,6 +199,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs._35373_35336_36039_353
 gdjs.copyArray(gdjs._35373_35336_36039_35338Code.GDNewSprite3Objects1, gdjs._35373_35336_36039_35338Code.GDNewSprite3Objects2);
 
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs._35373_35336_36039_35338Code.GDNewSprite4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs._35373_35336_36039_35338Code.GDNewTextObjects2);
 gdjs.copyArray(runtimeScene.getObjects("參考資料"), gdjs._35373_35336_36039_35338Code.GD_9521443_9532771_9536039_9526009Objects2);
 /* Reuse gdjs._35373_35336_36039_35338Code.GD_9521443_9532771_9536039_95260092Objects2 */
 gdjs.copyArray(runtimeScene.getObjects("版權資訊"), gdjs._35373_35336_36039_35338Code.GD_9529256_9527402_9536039_9535338Objects2);
@@ -235,6 +239,10 @@ gdjs.copyArray(runtimeScene.getObjects("製作團隊"), gdjs._35373_35336_36039_
 }
 {for(var i = 0, len = gdjs._35373_35336_36039_35338Code.GD_9535069_9520316_9522296_9538538Objects2.length ;i < len;++i) {
     gdjs._35373_35336_36039_35338Code.GD_9535069_9520316_9522296_9538538Objects2[i].Activate(true, null);
+}
+}
+{for(var i = 0, len = gdjs._35373_35336_36039_35338Code.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs._35373_35336_36039_35338Code.GDNewTextObjects2[i].hide();
 }
 }
 }
@@ -328,6 +336,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._35373_35336_36039_35338Code.GDNewSprite3Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs._35373_35336_36039_35338Code.GDNewSprite4Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs._35373_35336_36039_35338Code.GDNewTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("參考資料2"), gdjs._35373_35336_36039_35338Code.GD_9521443_9532771_9536039_95260092Objects1);
 gdjs.copyArray(runtimeScene.getObjects("團隊"), gdjs._35373_35336_36039_35338Code.GD_9522296_9538538Objects1);
 gdjs.copyArray(runtimeScene.getObjects("版權"), gdjs._35373_35336_36039_35338Code.GD_9529256_9527402Objects1);
@@ -367,6 +376,10 @@ gdjs.copyArray(runtimeScene.getObjects("特別感謝3"), gdjs._35373_35336_36039
 }
 {for(var i = 0, len = gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects1.length ;i < len;++i) {
     gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects1[i].hide();
+}
+}
+{for(var i = 0, len = gdjs._35373_35336_36039_35338Code.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs._35373_35336_36039_35338Code.GDNewTextObjects1[i].hide();
 }
 }
 }
@@ -556,6 +569,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs._35373_35336_36039_35338Code.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._35373_35336_36039_35338Code.GDNewSprite3Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs._35373_35336_36039_35338Code.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs._35373_35336_36039_35338Code.GDNewTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("參考資料2"), gdjs._35373_35336_36039_35338Code.GD_9521443_9532771_9536039_95260092Objects1);
 gdjs.copyArray(runtimeScene.getObjects("版權資訊"), gdjs._35373_35336_36039_35338Code.GD_9529256_9527402_9536039_9535338Objects1);
 gdjs.copyArray(runtimeScene.getObjects("特別感謝"), gdjs._35373_35336_36039_35338Code.GD_9529305_9521029_9524863_9535613Objects1);
@@ -590,6 +604,10 @@ gdjs.copyArray(runtimeScene.getObjects("製作團隊"), gdjs._35373_35336_36039_
 }
 {for(var i = 0, len = gdjs._35373_35336_36039_35338Code.GD_9535069_9520316_9522296_9538538Objects1.length ;i < len;++i) {
     gdjs._35373_35336_36039_35338Code.GD_9535069_9520316_9522296_9538538Objects1[i].Activate(false, null);
+}
+}
+{for(var i = 0, len = gdjs._35373_35336_36039_35338Code.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs._35373_35336_36039_35338Code.GDNewTextObjects1[i].hide(false);
 }
 }
 }
@@ -736,6 +754,9 @@ gdjs._35373_35336_36039_35338Code.GD_9529256_95274022Objects3.length = 0;
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects1.length = 0;
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects2.length = 0;
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects3.length = 0;
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects1.length = 0;
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects2.length = 0;
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects3.length = 0;
 
 gdjs._35373_35336_36039_35338Code.eventsList1(runtimeScene);
 gdjs._35373_35336_36039_35338Code.GDNewSpriteObjects1.length = 0;
@@ -780,6 +801,9 @@ gdjs._35373_35336_36039_35338Code.GD_9529256_95274022Objects3.length = 0;
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects1.length = 0;
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects2.length = 0;
 gdjs._35373_35336_36039_35338Code.GDNewSprite5Objects3.length = 0;
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects1.length = 0;
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects2.length = 0;
+gdjs._35373_35336_36039_35338Code.GDNewTextObjects3.length = 0;
 
 
 return;
