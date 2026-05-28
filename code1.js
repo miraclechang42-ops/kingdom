@@ -382,17 +382,7 @@ gdjs.copyArray(runtimeScene.getObjects("特別感謝3"), gdjs._35373_35336_36039
     gdjs._35373_35336_36039_35338Code.GDNewTextObjects1[i].hide();
 }
 }
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
+{gdjs.evtTools.sound.playMusic(runtimeScene, "1111.mp3", false, 100, 1);
 }
 }
 
@@ -415,18 +405,6 @@ for (var i = 0, k = 0, l = gdjs._35373_35336_36039_35338Code.GDNewSpriteObjects1
 gdjs._35373_35336_36039_35338Code.GDNewSpriteObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "主畫面");
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
 }
 
@@ -702,6 +680,16 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs._35373_35336_36039_35338Code.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }

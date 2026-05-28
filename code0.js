@@ -95,8 +95,6 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusic(runtimeScene, "1111.mp3", false, 100, 1);
-}
 }
 
 }
