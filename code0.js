@@ -13,6 +13,10 @@ gdjs._20027_30059_38754Code.GDNewSprite2Objects1= [];
 gdjs._20027_30059_38754Code.GDNewSprite2Objects2= [];
 gdjs._20027_30059_38754Code.GDNewSprite3Objects1= [];
 gdjs._20027_30059_38754Code.GDNewSprite3Objects2= [];
+gdjs._20027_30059_38754Code.GDNewSprite4Objects1= [];
+gdjs._20027_30059_38754Code.GDNewSprite4Objects2= [];
+gdjs._20027_30059_38754Code.GDGreenButtonObjects1= [];
+gdjs._20027_30059_38754Code.GDGreenButtonObjects2= [];
 
 
 gdjs._20027_30059_38754Code.eventsList0 = function(runtimeScene) {
@@ -87,9 +91,21 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("GreenButton"), gdjs._20027_30059_38754Code.GDGreenButtonObjects1);
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length;i<l;++i) {
+    if ( gdjs._20027_30059_38754Code.GDGreenButtonObjects1[i].IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs._20027_30059_38754Code.GDGreenButtonObjects1[k] = gdjs._20027_30059_38754Code.GDGreenButtonObjects1[i];
+        ++k;
+    }
+}
+gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Audio Library 音樂庫 免費背景音樂下載 歌名 Pooka 作者 Kevin MacLeod  Cinematic 電影配樂  - Audio Library 音樂庫 無版權配樂 免費背景音樂下載 (youtube).mp3", 1, true, 100, 1);
+}
 }
 
 }
@@ -112,6 +128,10 @@ gdjs._20027_30059_38754Code.GDNewSprite2Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite2Objects2.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects2.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite4Objects1.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite4Objects2.length = 0;
+gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length = 0;
+gdjs._20027_30059_38754Code.GDGreenButtonObjects2.length = 0;
 
 gdjs._20027_30059_38754Code.eventsList0(runtimeScene);
 gdjs._20027_30059_38754Code.GD_9538283_9522987_9536938_9525138Objects1.length = 0;
@@ -126,6 +146,10 @@ gdjs._20027_30059_38754Code.GDNewSprite2Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite2Objects2.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects2.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite4Objects1.length = 0;
+gdjs._20027_30059_38754Code.GDNewSprite4Objects2.length = 0;
+gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length = 0;
+gdjs._20027_30059_38754Code.GDGreenButtonObjects2.length = 0;
 
 
 return;
