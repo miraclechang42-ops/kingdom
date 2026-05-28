@@ -217,18 +217,6 @@ gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._38283_31471Code.GD_95953Obje
 
 {
 
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
-}
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._38283_31471Code.GDNewSprite5Objects1);
 
 let isConditionTrue_0 = false;

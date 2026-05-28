@@ -507,7 +507,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite11"), gdjs._23805_35895Code.GDN
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs._23805_35895Code.GDNewSprite11Objects1.length;i<l;++i) {
-    if ( gdjs._23805_35895Code.GDNewSprite11Objects1[i].getBehavior("ButtonFSM").IsFocused(null) ) {
+    if ( gdjs._23805_35895Code.GDNewSprite11Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
         isConditionTrue_0 = true;
         gdjs._23805_35895Code.GDNewSprite11Objects1[k] = gdjs._23805_35895Code.GDNewSprite11Objects1[i];
         ++k;
@@ -536,7 +536,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs._23805_35895Code.GDN
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs._23805_35895Code.GDNewSprite10Objects1.length;i<l;++i) {
-    if ( gdjs._23805_35895Code.GDNewSprite10Objects1[i].getBehavior("ButtonFSM").IsFocused(null) ) {
+    if ( gdjs._23805_35895Code.GDNewSprite10Objects1[i].getBehavior("ButtonFSM").IsPressed(null) ) {
         isConditionTrue_0 = true;
         gdjs._23805_35895Code.GDNewSprite10Objects1[k] = gdjs._23805_35895Code.GDNewSprite10Objects1[i];
         ++k;
