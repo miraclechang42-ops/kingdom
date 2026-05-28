@@ -59,6 +59,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("GreenButton"), gdjs._31934_38728Code.GDGreenButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._31934_38728Code.GDNewSprite3Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs._31934_38728Code.GDNewSprite4Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs._31934_38728Code.GDNewSprite6Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_2"), gdjs._31934_38728Code.GD_95952Objects1);
@@ -125,6 +126,10 @@ gdjs.copyArray(runtimeScene.getObjects("錯誤"), gdjs._31934_38728Code.GD_95376
 }
 {for(var i = 0, len = gdjs._31934_38728Code.GDNewSprite6Objects1.length ;i < len;++i) {
     gdjs._31934_38728Code.GDNewSprite6Objects1[i].hide();
+}
+}
+{for(var i = 0, len = gdjs._31934_38728Code.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs._31934_38728Code.GDNewSprite3Objects1[i].getBehavior("Opacity").setOpacity(230);
 }
 }
 }

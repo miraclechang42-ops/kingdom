@@ -652,6 +652,8 @@ gdjs._27836_28580Code.GDGreenButton2Objects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "精靈");
 }
+{runtimeScene.getGame().getVariables().getFromIndex(0).add(runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber());
+}
 }
 
 }

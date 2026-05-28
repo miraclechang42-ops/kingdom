@@ -71,6 +71,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._35206_21629Code.GDNe
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs._35206_21629Code.GDNewSprite4Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs._35206_21629Code.GDNewSprite5Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs._35206_21629Code.GDNewSprite6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs._35206_21629Code.GDNewSprite7Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs._35206_21629Code.GDNewTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("_2"), gdjs._35206_21629Code.GD_95952Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._35206_21629Code.GD_95953Objects1);
@@ -124,6 +125,10 @@ gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._35206_21629Code.GD_95953Obje
 }
 {for(var i = 0, len = gdjs._35206_21629Code.GDNewTextObjects1.length ;i < len;++i) {
     gdjs._35206_21629Code.GDNewTextObjects1[i].hide();
+}
+}
+{for(var i = 0, len = gdjs._35206_21629Code.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs._35206_21629Code.GDNewSprite7Objects1[i].getBehavior("Opacity").setOpacity(230);
 }
 }
 }

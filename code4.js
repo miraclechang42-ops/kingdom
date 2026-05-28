@@ -427,6 +427,8 @@ gdjs._23805_35895Code.GDGreenButton3Objects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "壓壓");
 }
+{runtimeScene.getGame().getVariables().getFromIndex(0).add(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
+}
 }
 
 }
@@ -460,18 +462,6 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs._23805_35895Code.GDNe
 {for(var i = 0, len = gdjs._23805_35895Code.GDNewSprite2Objects1.length ;i < len;++i) {
     gdjs._23805_35895Code.GDNewSprite2Objects1[i].getBehavior("Animation").setAnimationIndex(0);
 }
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
 }
 
