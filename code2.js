@@ -31,6 +31,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("GreenButton"), gdjs._38283_31471Code.GDGreenButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs._38283_31471Code.GDNewSprite3Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_2"), gdjs._38283_31471Code.GD_95952Objects1);
 gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._38283_31471Code.GD_95953Objects1);
 {for(var i = 0, len = gdjs._38283_31471Code.GD_95952Objects1.length ;i < len;++i) {
@@ -43,6 +44,12 @@ gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._38283_31471Code.GD_95953Obje
 }
 {for(var i = 0, len = gdjs._38283_31471Code.GDGreenButtonObjects1.length ;i < len;++i) {
     gdjs._38283_31471Code.GDGreenButtonObjects1[i].hide();
+}
+}
+{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
+}
+{for(var i = 0, len = gdjs._38283_31471Code.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs._38283_31471Code.GDNewSprite3Objects1[i].getBehavior("Opacity").setOpacity(230);
 }
 }
 }
@@ -232,6 +239,16 @@ gdjs._38283_31471Code.GDNewSprite5Objects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "主畫面");
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }

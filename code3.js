@@ -83,6 +83,10 @@ gdjs.copyArray(runtimeScene.getObjects("_4"), gdjs._29579_23470Code.GD_95954Obje
     gdjs._29579_23470Code.GDNewSprite6Objects1[i].hide();
 }
 }
+{for(var i = 0, len = gdjs._29579_23470Code.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs._29579_23470Code.GDNewSprite3Objects1[i].getBehavior("Opacity").setOpacity(230);
+}
+}
 }
 
 }
@@ -312,18 +316,6 @@ for (var i = 0, k = 0, l = gdjs._29579_23470Code.GDGreenButtonObjects1.length;i<
 gdjs._29579_23470Code.GDGreenButtonObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "峽谷");
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
 }
 
