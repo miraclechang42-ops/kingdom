@@ -13,8 +13,6 @@ gdjs._20027_30059_38754Code.GDNewSprite2Objects1= [];
 gdjs._20027_30059_38754Code.GDNewSprite2Objects2= [];
 gdjs._20027_30059_38754Code.GDNewSprite3Objects1= [];
 gdjs._20027_30059_38754Code.GDNewSprite3Objects2= [];
-gdjs._20027_30059_38754Code.GDGreenButtonObjects1= [];
-gdjs._20027_30059_38754Code.GDGreenButtonObjects2= [];
 gdjs._20027_30059_38754Code.GDNewText2Objects1= [];
 gdjs._20027_30059_38754Code.GDNewText2Objects2= [];
 
@@ -38,8 +36,6 @@ gdjs._20027_30059_38754Code.GD_9538283_9522987_9536938_9525138Objects1.length = 
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "開端", false);
 }
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
-}
 }
 
 }
@@ -62,8 +58,6 @@ gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects1.length = 
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "設計資訊", false);
 }
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
-}
 }
 
 }
@@ -76,7 +70,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.preloadMusic(runtimeScene, "1111.mp3");
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
 }
 }
 
@@ -100,8 +94,6 @@ gdjs._20027_30059_38754Code.GDNewSprite2Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite2Objects2.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects2.length = 0;
-gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length = 0;
-gdjs._20027_30059_38754Code.GDGreenButtonObjects2.length = 0;
 gdjs._20027_30059_38754Code.GDNewText2Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewText2Objects2.length = 0;
 
@@ -118,8 +110,6 @@ gdjs._20027_30059_38754Code.GDNewSprite2Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite2Objects2.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewSprite3Objects2.length = 0;
-gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length = 0;
-gdjs._20027_30059_38754Code.GDGreenButtonObjects2.length = 0;
 gdjs._20027_30059_38754Code.GDNewText2Objects1.length = 0;
 gdjs._20027_30059_38754Code.GDNewText2Objects2.length = 0;
 

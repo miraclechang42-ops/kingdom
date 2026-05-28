@@ -52,6 +52,8 @@ gdjs.copyArray(runtimeScene.getObjects("_3"), gdjs._38283_31471Code.GD_95953Obje
     gdjs._38283_31471Code.GDNewSprite3Objects1[i].getBehavior("Opacity").setOpacity(230);
 }
 }
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
+}
 }
 
 }
@@ -238,18 +240,6 @@ for (var i = 0, k = 0, l = gdjs._38283_31471Code.GDNewSprite5Objects1.length;i<l
 gdjs._38283_31471Code.GDNewSprite5Objects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "主畫面");
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
 }
 

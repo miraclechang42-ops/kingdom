@@ -382,8 +382,18 @@ gdjs.copyArray(runtimeScene.getObjects("特別感謝3"), gdjs._35373_35336_36039
     gdjs._35373_35336_36039_35338Code.GDNewTextObjects1[i].hide();
 }
 }
-{gdjs.evtTools.sound.playMusic(runtimeScene, "1111.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }
@@ -680,16 +690,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs._35373_35336_36039_35338Code.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
 }
 
 }
