@@ -24,7 +24,7 @@ gdjs._35657_26360Code.GDNewText3Objects2= [];
 gdjs._35657_26360Code.GDNewText3Objects3= [];
 
 
-gdjs._35657_26360Code.userFunc0x1222208 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs._35657_26360Code.userFunc0xbb8588 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 const homeButtonList = runtimeScene.getObjects("NewSprite");
 const downloadButtonList = runtimeScene.getObjects("NewSprite3");
@@ -62,7 +62,7 @@ gdjs._35657_26360Code.eventsList0 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewTextInput"), gdjs._35657_26360Code.GDNewTextInputObjects1);
 
 const objects = gdjs._35657_26360Code.GDNewTextInputObjects1;
-gdjs._35657_26360Code.userFunc0x1222208(runtimeScene, objects);
+gdjs._35657_26360Code.userFunc0xbb8588(runtimeScene, objects);
 
 }
 
