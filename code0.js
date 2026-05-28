@@ -38,6 +38,8 @@ gdjs._20027_30059_38754Code.GD_9538283_9522987_9536938_9525138Objects1.length = 
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "開端", false);
 }
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
+}
 }
 
 }
@@ -60,41 +62,8 @@ gdjs._20027_30059_38754Code.GD_9535373_9535336_9536039_9535338Objects1.length = 
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "設計資訊", false);
 }
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
 }
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("GreenButton"), gdjs._20027_30059_38754Code.GDGreenButtonObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length;i<l;++i) {
-    if ( gdjs._20027_30059_38754Code.GDGreenButtonObjects1[i].IsClicked(null) ) {
-        isConditionTrue_0 = true;
-        gdjs._20027_30059_38754Code.GDGreenButtonObjects1[k] = gdjs._20027_30059_38754Code.GDGreenButtonObjects1[i];
-        ++k;
-    }
-}
-gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20802132);
-}
-}
-if (isConditionTrue_0) {
 }
 
 }
@@ -107,8 +76,6 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
-}
 {gdjs.evtTools.sound.preloadMusic(runtimeScene, "1111.mp3");
 }
 }
