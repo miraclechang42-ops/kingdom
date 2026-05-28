@@ -95,7 +95,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusic(runtimeScene, "hobhp-ytpis.ogg", true, 100, 1);
+{gdjs.evtTools.sound.playMusic(runtimeScene, "1111.mp3", false, 100, 1);
 }
 }
 
@@ -109,7 +109,9 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "hobhp-ytpis.ogg", 1, true, 100, 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1111.mp3", 1, true, 100, 1);
+}
+{gdjs.evtTools.sound.preloadMusic(runtimeScene, "1111.mp3");
 }
 }
 

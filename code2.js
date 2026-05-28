@@ -249,6 +249,8 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
+{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
+}
 }
 
 }

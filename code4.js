@@ -548,6 +548,18 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs._23805_35895Code.GDNe
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
+}
+}
+
+}
+
+
 };
 
 gdjs._23805_35895Code.func = function(runtimeScene) {
