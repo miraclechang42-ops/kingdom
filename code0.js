@@ -70,19 +70,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Audio Library 音樂庫 免費背景音樂下載 歌名 Pooka 作者 Kevin MacLeod  Cinematic 電影配樂  - Audio Library 音樂庫 無版權配樂 免費背景音樂下載 (youtube).mp3", 1, true, 100, 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "hobhp-ytpis.ogg", 1, true, 100, 1);
 }
 }
 
@@ -96,7 +84,7 @@ gdjs.copyArray(runtimeScene.getObjects("GreenButton"), gdjs._20027_30059_38754Co
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length;i<l;++i) {
-    if ( gdjs._20027_30059_38754Code.GDGreenButtonObjects1[i].IsPressed(null) ) {
+    if ( gdjs._20027_30059_38754Code.GDGreenButtonObjects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs._20027_30059_38754Code.GDGreenButtonObjects1[k] = gdjs._20027_30059_38754Code.GDGreenButtonObjects1[i];
         ++k;
@@ -104,7 +92,21 @@ for (var i = 0, k = 0, l = gdjs._20027_30059_38754Code.GDGreenButtonObjects1.len
 }
 gdjs._20027_30059_38754Code.GDGreenButtonObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusic(runtimeScene, "Audio Library 音樂庫 免費背景音樂下載 歌名 Pooka 作者 Kevin MacLeod  Cinematic 電影配樂  - Audio Library 音樂庫 無版權配樂 免費背景音樂下載 (youtube).mp3", true, 100, 1);
+{gdjs.evtTools.sound.playMusic(runtimeScene, "hobhp-ytpis.ogg", true, 100, 1);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.preloadMusic(runtimeScene, "hobhp-ytpis.ogg");
 }
 }
 
