@@ -400,7 +400,7 @@ if (isConditionTrue_0) {
     gdjs._28779_23665Code.GDNewSprite2Objects1[i].deleteFromScene(runtimeScene);
 }
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs._28779_23665Code.mapOfGDgdjs_9546_959528779_959523665Code_9546GDNewSprite2Objects1Objects, gdjs.randomInRange(0, 1200), 54, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs._28779_23665Code.mapOfGDgdjs_9546_959528779_959523665Code_9546GDNewSprite2Objects1Objects, gdjs.randomInRange(0, 1100), 54, "");
 }
 {for(var i = 0, len = gdjs._28779_23665Code.GDNewSprite2Objects1.length ;i < len;++i) {
     gdjs._28779_23665Code.GDNewSprite2Objects1[i].getBehavior("Scale").setScale(0.3);

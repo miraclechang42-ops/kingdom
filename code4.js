@@ -16,9 +16,6 @@ gdjs._23805_35895Code.GDNewSprite4Objects3= [];
 gdjs._23805_35895Code.GD_9520998_9525976Objects1= [];
 gdjs._23805_35895Code.GD_9520998_9525976Objects2= [];
 gdjs._23805_35895Code.GD_9520998_9525976Objects3= [];
-gdjs._23805_35895Code.GD_9526178_9538291Objects1= [];
-gdjs._23805_35895Code.GD_9526178_9538291Objects2= [];
-gdjs._23805_35895Code.GD_9526178_9538291Objects3= [];
 gdjs._23805_35895Code.GDNewSprite7Objects1= [];
 gdjs._23805_35895Code.GDNewSprite7Objects2= [];
 gdjs._23805_35895Code.GDNewSprite7Objects3= [];
@@ -49,6 +46,9 @@ gdjs._23805_35895Code.GDNewSprite11Objects3= [];
 gdjs._23805_35895Code.GDNewSprite10Objects1= [];
 gdjs._23805_35895Code.GDNewSprite10Objects2= [];
 gdjs._23805_35895Code.GDNewSprite10Objects3= [];
+gdjs._23805_35895Code.GD_9526178_9538291Objects1= [];
+gdjs._23805_35895Code.GD_9526178_9538291Objects2= [];
+gdjs._23805_35895Code.GD_9526178_9538291Objects3= [];
 
 
 gdjs._23805_35895Code.mapOfGDgdjs_9546_959523805_959535895Code_9546GDNewSprite4Objects1Objects = Hashtable.newFrom({"NewSprite4": gdjs._23805_35895Code.GDNewSprite4Objects1});
@@ -255,7 +255,11 @@ gdjs.copyArray(runtimeScene.getObjects("時間"), gdjs._23805_35895Code.GD_95261
 }
 }
 {for(var i = 0, len = gdjs._23805_35895Code.GD_9526178_9538291Objects1.length ;i < len;++i) {
-    gdjs._23805_35895Code.GD_9526178_9538291Objects1[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))));
+    gdjs._23805_35895Code.GD_9526178_9538291Objects1[i].setBBText(gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))));
+}
+}
+{for(var i = 0, len = gdjs._23805_35895Code.GD_9526178_9538291Objects1.length ;i < len;++i) {
+    gdjs._23805_35895Code.GD_9526178_9538291Objects1[i].setAlignment("center");
 }
 }
 }
@@ -580,9 +584,6 @@ gdjs._23805_35895Code.GDNewSprite4Objects3.length = 0;
 gdjs._23805_35895Code.GD_9520998_9525976Objects1.length = 0;
 gdjs._23805_35895Code.GD_9520998_9525976Objects2.length = 0;
 gdjs._23805_35895Code.GD_9520998_9525976Objects3.length = 0;
-gdjs._23805_35895Code.GD_9526178_9538291Objects1.length = 0;
-gdjs._23805_35895Code.GD_9526178_9538291Objects2.length = 0;
-gdjs._23805_35895Code.GD_9526178_9538291Objects3.length = 0;
 gdjs._23805_35895Code.GDNewSprite7Objects1.length = 0;
 gdjs._23805_35895Code.GDNewSprite7Objects2.length = 0;
 gdjs._23805_35895Code.GDNewSprite7Objects3.length = 0;
@@ -613,6 +614,9 @@ gdjs._23805_35895Code.GDNewSprite11Objects3.length = 0;
 gdjs._23805_35895Code.GDNewSprite10Objects1.length = 0;
 gdjs._23805_35895Code.GDNewSprite10Objects2.length = 0;
 gdjs._23805_35895Code.GDNewSprite10Objects3.length = 0;
+gdjs._23805_35895Code.GD_9526178_9538291Objects1.length = 0;
+gdjs._23805_35895Code.GD_9526178_9538291Objects2.length = 0;
+gdjs._23805_35895Code.GD_9526178_9538291Objects3.length = 0;
 
 gdjs._23805_35895Code.eventsList1(runtimeScene);
 gdjs._23805_35895Code.GDNewSpriteObjects1.length = 0;
@@ -630,9 +634,6 @@ gdjs._23805_35895Code.GDNewSprite4Objects3.length = 0;
 gdjs._23805_35895Code.GD_9520998_9525976Objects1.length = 0;
 gdjs._23805_35895Code.GD_9520998_9525976Objects2.length = 0;
 gdjs._23805_35895Code.GD_9520998_9525976Objects3.length = 0;
-gdjs._23805_35895Code.GD_9526178_9538291Objects1.length = 0;
-gdjs._23805_35895Code.GD_9526178_9538291Objects2.length = 0;
-gdjs._23805_35895Code.GD_9526178_9538291Objects3.length = 0;
 gdjs._23805_35895Code.GDNewSprite7Objects1.length = 0;
 gdjs._23805_35895Code.GDNewSprite7Objects2.length = 0;
 gdjs._23805_35895Code.GDNewSprite7Objects3.length = 0;
@@ -663,6 +664,9 @@ gdjs._23805_35895Code.GDNewSprite11Objects3.length = 0;
 gdjs._23805_35895Code.GDNewSprite10Objects1.length = 0;
 gdjs._23805_35895Code.GDNewSprite10Objects2.length = 0;
 gdjs._23805_35895Code.GDNewSprite10Objects3.length = 0;
+gdjs._23805_35895Code.GD_9526178_9538291Objects1.length = 0;
+gdjs._23805_35895Code.GD_9526178_9538291Objects2.length = 0;
+gdjs._23805_35895Code.GD_9526178_9538291Objects3.length = 0;
 
 
 return;
